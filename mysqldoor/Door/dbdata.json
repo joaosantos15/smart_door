@@ -1,0 +1,3 @@
+{
+  "db":[{"user":"your_username","password":"your_password","host":"your_server_url","database":"your_database_name"}]
+}
