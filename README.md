@@ -1,1 +1,2 @@
-# smart_door
+#Secure Smart Home
+This project was built to simplify the access to a student club's room, by using a low-cost computer (Raspberry Pi) with a RFID reader, an electromagnet and a centralized authentication system. With the use of a two-factor authentication, the system is extremely secure, even allowing authenticated users, in an offline scenario, to access the room without compromising the integrity of its database.
