@@ -18,8 +18,8 @@ DOOR_PIN = 11
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(DOOR_PIN, GPIO.OUT)
 GPIO.setup(LED_PIN, GPIO.OUT)
-#security guard tag's UID
-master_keys=[[116, 150, 107, 26, 147]]
+#security guard tag's UID, fill your own
+master_keys=[[-1,-1,-1,-1,-1]]
 
 #default state - locked, for when the system reboots
 GPIO.output(DOOR_PIN, 0)
